@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* navbar and header style */
+.nav-container {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  background-color: #585858;
+  color: white;
+}
+.items {
+  display: flex;
+  list-style: none;
+}
+.item {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 5px;
+  margin-right: 10px;
+}
+/* banner section styles */
+.banner-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../demo-of-digital-agency/asset/image/background.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  background-blend-mode: overlay;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: bold;
+}
+.primary {
+  color: rgb(224, 12, 12);
+}
+.description {
+  font-size: 22px;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+.btn {
+  /* Is is common class of both button */
+  padding: 15px 35px;
+  border: none;
+  font-size: 18px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.btn-discover {
+  background-color: red;
+  color: white;
+}
+.btn-hire {
+  color: red;
+}
