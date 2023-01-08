@@ -105,13 +105,14 @@
 .author-img-description {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding-left: 20px;
   align-items: center;
   border-right: 1px solid red;
 }
 .author-img {
-  width: 60%;
+  width: 40%;
   border-radius: 100px;
+  padding: 7px;
 }
 .more-details {
   padding: 10px 30px;
@@ -128,8 +129,8 @@
   padding: 10px;
   background-color: white;
   box-shadow: 4px 4px 8px gray;
-  width: 280px;
-  height: 270px;
+  width: 200px;
+  height: 200px;
   color: black;
   text-align: center;
   border-radius: 5px;
@@ -149,4 +150,41 @@
 }
 .service-left-container {
   width: 50%;
+}
+/* appointment section styles */
+.appointment-section {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(228, 29, 46, 0.993);
+  width: 75%;
+  padding: 30px;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: -70px;
+}
+.call-icon {
+  width: 90px;
+  padding-right: 20px;
+}
+.appointment-left {
+  display: flex;
+  margin-right: 20px;
+  border-right: 2px solid gray;
+  width: 50%;
+}
+.appointment-text {
+  width: 50%;
+}
+.appointment-right {
+  display: flex;
+  justify-content: space-around;
+}
+.appointment-btn {
+  padding: 15px 50px;
+  color: rgb(12, 10, 10);
+  font-weight: 700;
+  border-radius: 25px;
+  border: none;
 }
